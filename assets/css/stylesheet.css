@@ -977,7 +977,8 @@ css: people
 .faculty-img {
   height:190px;
   border-radius:4px;
-  border: 2px solid #6d3609;
+  border: 2px solid #6d3609; 
+  
   /* height: 160px; */
 }
 
