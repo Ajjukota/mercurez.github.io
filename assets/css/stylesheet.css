@@ -942,7 +942,7 @@ css: people
 
 .rschtip .rschtext {
   visibility: hidden;
-  width: 420px;
+  width: 300px;
   background-color: #FFF4E3;
   color: black;
   text-align: left;
@@ -951,7 +951,8 @@ css: people
   border: 1px solid #ffcc80;
   top: 100%;
   left: 50%;
-  margin-left: -210px;
+  margin-left: -100px;
+  margin-top: 5px;
 
   position: absolute;
   z-index: 1;
