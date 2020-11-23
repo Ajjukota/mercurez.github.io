@@ -937,13 +937,17 @@ css: people
 
 .rschtip .rschtext {
   visibility: hidden;
-  width: 120px;
-  background-color: black;
-  color: #fff;
+  width: 420px;
+  background-color: #FFF4E3;
+  color: black;
   text-align: center;
-  padding: 5px 0;
+  padding: 10px 20px;
   border-radius: 6px;
  
+  top: 100%;
+  left: 50%;
+  margin-left: -210px;
+
   position: absolute;
   z-index: 1;
 }
@@ -952,6 +956,16 @@ css: people
   visibility: visible;
 }
 
+.rschtip .rschtext::after {
+  content: " ";
+  position: absolute;
+  bottom: 100%; /* At the bottom of the tooltip */
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: black transparent transparent transparent;
+}
 /* faculty - reference image to scale - 130 x 160 */
 
 .faculty-img {
