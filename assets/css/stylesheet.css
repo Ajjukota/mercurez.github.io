@@ -932,7 +932,10 @@ css: people
 .rschtip {
   position: relative;
   display: inline-block;
-  border-bottom: 1px dotted black;
+  border-bottom: 2px solid #ffcb55;
+  border-radius: 5px;
+  padding: 0px 10px;
+  background-color:#fff5d7; 
 }
 
 .rschtip .rschtext {
@@ -940,10 +943,10 @@ css: people
   width: 420px;
   background-color: #FFF4E3;
   color: black;
-  text-align: center;
+  text-align: left;
   padding: 10px 20px;
-  border-radius: 6px;
- 
+  border-radius: 10px;
+  border: 1px solid #ffcc80;
   top: 100%;
   left: 50%;
   margin-left: -210px;
