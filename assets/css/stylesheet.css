@@ -953,7 +953,7 @@ css: people
   left: 50%;
   margin-left: -100px;
   margin-top: 5px;
-
+  font-size:12px;
   position: absolute;
   z-index: 1;
 }
