@@ -965,8 +965,8 @@ css: people
 .rschtip .rschtext::after {
   content: " ";
   position: absolute;
-  bottom: 95%; /* At the bottom of the tooltip */
-  left: 50%;
+  top: 5px; /* At the bottom of the tooltip */
+  left: 40%;
   margin-left: -5px;
   border-width: 5px;
   border-style: solid;
